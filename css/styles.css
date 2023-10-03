@@ -1,0 +1,215 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --CLOUD: #F4F4FD;
+    --WHITE: #FFF;
+    --SLATE: #434455;
+    --OCEAN: #404BBF;
+    --WHITE: #FFFFFF;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+/* WEBSTUDIO */
+.logo {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: var(--IRIS);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-contacts {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
+/* EFFECTIVE SOLUTION */
+.h1-hero {
+    color: var(--WHITE);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: 1.12px; 
+}
+
+.hero-color {
+    background: var(--NAVY-BLUE);
+}   
+
+.order-button{
+    color: var(--WHITE);
+    background: var(--IRIS);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.64px; 
+    border-radius: 4px; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
+}
+
+
+.list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list a {
+    color: var(--NAVY-BLUE);
+    text-decoration: none;
+}
+
+.list a:hover,
+.list a:focus
+{
+    text-decoration: underline;
+    color: var(--IRIS)
+}
+
+.main-list {
+    color: var(--NAVY-BLUE);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.4px; 
+}
+
+.main-list p{
+    color: var(--SLATE);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px; 
+}
+
+
+
+.doing-team-h2 h2{
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize; 
+}
+
+.list h3{
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px; 
+}
+
+.list p{
+color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px; 
+}
+
+button {
+    cursor: pointer;
+}
+
+/* FOOTER WEBSTUDIO */
+footer .logo {
+    color: var(--CLOUD);
+}
+
+.footer-color {
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px; 
+}
+
+/* PORTFOLIO */
+.all {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+.web-site {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+.app{
+    color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+.design{
+    color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+.marketing{
+    color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
