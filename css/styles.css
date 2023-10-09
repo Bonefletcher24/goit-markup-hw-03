@@ -169,16 +169,13 @@ footer .logo {
 /* PORTFOLIO */
 .all {
     color: var(--IRIS, #4D5AE5);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
 }
 .web-site {
     color: var(--IRIS, #4D5AE5);
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -212,4 +209,3 @@ footer .logo {
     line-height: 24px;
     letter-spacing: 0.64px;
 }
-
